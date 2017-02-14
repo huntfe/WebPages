@@ -6,5 +6,48 @@
 
   <body>
     <h1>Links</h1>
+
+    <p>
+      This example is about links and <a href='images.html'>images</a>.
+    </p>
+    <p>This page is about links. There are three kinds of links:</p>
+    <ul>
+      <li>
+        Absolute Links
+        <ul>
+          <li>
+            The most detailed way to refer to a web resource, like to
+            <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank">
+              Mozilla Developer Network</a>
+              , which is a good resource.
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Relative Links
+        <ul>
+          <li>
+            These point to a file in the same website and the
+            same directory as the current file.
+            The scheme and domain are implied to be the same.
+            Like to the <a href="misc/extras.html">Extras page</a>.
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Root-Relative Links
+        <ul>
+          <li>These links are relative to the root URL of the website.
+              This does mean that without a server these can't be used.</li>
+          </li>
+        </ul>
+      </li>
+
+      <li>It is also possible to get to parent folders by using the .. syntax.
+          This can be seen in action in the <a href="misc/extras.html">Extras page.</a>
+      </li>
+    </ul>
   </body>
 </html>
