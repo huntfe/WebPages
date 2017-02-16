@@ -13,4 +13,19 @@ h2{
 
 h1, h2, h3, h4, h5, h6, p{
     font-family: "Helvetica", "Arial", sans-serif;
+    /*Tries the fonts form left to rigt until it finds one that the browser has*/
+
+    font-weight: normal;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+p{
+    text-align: left;
 }
