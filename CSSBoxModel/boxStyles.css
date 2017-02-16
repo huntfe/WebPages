@@ -1,0 +1,65 @@
+
+*{/*Reset all default styles*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    background-color: #DDE0E3;
+}
+
+em, strong{
+    background-color: #B2D6FF;
+}
+
+h1{
+    padding: 20px 0px 20px 10px;
+    /*Adds 50 pixels to each side*/
+    /*
+    padding-top: ~px;
+    padding-bottom: ~px;
+    padding-left: ~px;
+    padding-right: ~px;
+
+    Are also available
+    em units can also be used
+
+    padding: <vertical> <horizontal>;
+    padding: 50px;
+    */
+
+    border-bottom:1px solid #5D6063;
+    /*
+    border: <size> <style> <color>;
+    border-bottom: <size> <style> <color>;
+    .
+    .
+    .
+
+    */
+}
+
+p{
+    padding: 20px 0 20px 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+div{
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px; /*Width of content, border and padding are added to this*/
+    box-sizing: border-box; /*This means the padding and borders are included in width.
+    This is considered best practice among web devs*/
+    margin: 20px auto; /*This only really works when the box is smaller than the entire screen*/
+}
+
+body{
+    text-align: center;
+}
