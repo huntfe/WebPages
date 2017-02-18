@@ -5,7 +5,7 @@
 
 .synopsis em{
     font-style: normal;
-    color: #EE7524;
+    color: #EE7524; /*Personal preference*/
 }
 
 .button:link,
@@ -83,4 +83,9 @@ a:visited:hover{
 
 a:visited:active{/*Get red back after visited*/
     color: red;
+}
+
+/*Child selector: Only takes elements from elements in .page*/
+.page > p:last-of-type{
+    margin-bottom: 50px;
 }
