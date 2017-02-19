@@ -54,6 +54,11 @@ callToAction:visited:active{
     background-color: #EEB75A;
 }
 
+#button2{
+    color: #5D6063;
+    background-color: #D55C5F; /*Always set to red*/
+}
+
 .page{/*The page will always be centered with this*/
     width: 600px;
     margin: 0 auto;
